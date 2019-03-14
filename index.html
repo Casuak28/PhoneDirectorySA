@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <div class="yohead">
+            <h1 class="yoheader"> Phone Directory </h1>
+        </div>
+        <div class="table-container" id="tableContainer">
+            <div class="table-row">
+                <div class="table-column Name header">Name</div>
+                <div class="table-column Phone header">Phone</div>
+                <div class="table-column Add header" id="AddNewEntry">Add New</div>
+            </div>
+            <spam id="tableBody"></spam>
+        </div>
+        
+        <div class="disable-modal" id="backdrop"></div>
+        <div class="disable-modal" id="newPersonModal">
+
+            <h1>Add new Person</h1>
+
+            <label for="NewPersonName">Name</label>
+            <input type="text" id="NewPersonName">
+
+            <label for="NewPersonPhone">Phone</label>
+            <input type="text" id="NewPersonPhone">
+
+            <button id="newPersonCancelBtn">Back</button>
+            <button id="newPersonSubmitBtn">Submit</button>
+        </div>
+
+
+        <script src="script.js"> </script>
+    </body>
+
+
+</html>
